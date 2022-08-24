@@ -1,0 +1,13 @@
+create table international_debt (country_name varchar(255),
+								 country_code varchar (3),
+								 indicator_name varchar(255),
+								 indicator_code varchar(255),
+								 debt float)
+								 
+								 
+								 
+copy international_debt from 'D:\international_debt.csv'DELIMITER ',' CSV HEADER null 'NA';
+
+
+
+
